@@ -6,7 +6,7 @@ import time
 #default-api-key = 06c921750b9a82d8f5d1294e1586276f
 def getWeather(canvas):
     city = textField.get()
-    api = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=06c921750b9a82d8f5d1294e1586276f"
+    api = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=dad6f64ef55939cf444d66f632e14dd1"
 
     json_data = requests.get(api).json()
     print(json_data)
